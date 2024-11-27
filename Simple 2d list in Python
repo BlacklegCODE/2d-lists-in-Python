@@ -1,0 +1,13 @@
+
+fruits = [" Applem","Orange","Banana"]
+
+boys = ["Harsh","Jit","Om","Yash"]
+
+processors = ["ryzen 5 5600h","Ryzen 9 6800X3D","i9 14900ks"]
+
+groceries = [fruits, boys, processors]
+
+for i in groceries :
+    for food in i:
+        print(food, end = " ")
+    print()
